@@ -75,44 +75,7 @@ void LevelStart(){
 	cout << "\n\n (4) " << playerAttacks.attack4;
 	cout << "\n > ";
 	cin >> playerAttack;
-	if(playerAttack == 1){
-		easyLevelMonster.monsterHealth - playerAttacks.damageAttack1;
-			cout << "Monsters: " << easyLevelMonster.monsterCount;
-	cout << "\n\n Monster type: " << easyLevelMonster.monsterType;
-	cout << "\n\n (1) " << playerAttacks.attack1;
-	cout << "\n\n (2) " << playerAttacks.attack2;
-	cout << "\n\n (3) " << playerAttacks.attack3;
-	cout << "\n\n (4) " << playerAttacks.attack4;
-	cout << "\n > ";
-	cin >> playerAttack;
 	
-	if(playerAttack == 2){
-		easyLevelMonster.monsterHealth - playerAttacks.damageAttack2;
-			cout << "Monsters: " << easyLevelMonster.monsterCount;
-	cout << "\n\n Monster type: " << easyLevelMonster.monsterType;
-	cout << "\n\n (1) " << playerAttacks.attack1;
-	cout << "\n\n (2) " << playerAttacks.attack2;
-	cout << "\n\n (3) " << playerAttacks.attack3;
-	cout << "\n\n (4) " << playerAttacks.attack4;
-	cout << "\n > ";
-	cin >> playerAttack;
-	
-	if(playerAttack == 3){
-		easyLevelMonster.monsterHealth - playerAttacks.damageAttack3;
-			cout << "Monsters: " << easyLevelMonster.monsterCount;
-	cout << "\n\n Monster type: " << easyLevelMonster.monsterType;
-	cout << "\n\n (1) " << playerAttacks.attack1;
-	cout << "\n\n (2) " << playerAttacks.attack2;
-	cout << "\n\n (3) " << playerAttacks.attack3;
-	cout << "\n\n (4) " << playerAttacks.attack4;
-	cout << "\n > ";
-	cin >> playerAttack;
-	
-	if(playerAttack == 4){
-		easyLevelMonster.monsterHealth - playerAttacks.damageAttack4;
-	}
-	}
-}}
 }
 
 
